@@ -1,12 +1,25 @@
 {
   "name": "playolaizq-styles",
+  "description": "Styles utilities",
   "version": "0.0.2",
   "main": "./dist/styles.umd.js",
   "module": "./dist/styles.mjs",
   "types": "./dist/styles.d.ts",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+  "contributors": [
+    "playolaizq <playolaizq@gmail.com> (https://github.com/playolaizq)"
+  ],
+  "keywords": [
+    "styles"
+  ],
+  "homepage": "https://github.com/playolaizq/playolaizq-utilities",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:playolaizq/playolaizq-utilities.git"
+  },
+  "bugs": {
+    "url": "https://github.com/playolaizq/playolaizq-utilities/issues",
+    "email": "playolaizq@gmail.com"
   },
   "scripts": {
     "lint": "eslint \"src/**/*.ts*\"",
