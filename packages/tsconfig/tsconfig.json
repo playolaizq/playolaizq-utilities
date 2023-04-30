@@ -6,6 +6,7 @@
       "DOM.Iterable",
       "ESNext"
     ],
+    "moduleResolution": "node",
     "declaration": true,
     "declarationMap": true,
     "emitDeclarationOnly": true,

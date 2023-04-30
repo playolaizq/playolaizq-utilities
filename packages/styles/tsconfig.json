@@ -4,6 +4,6 @@
   "exclude": ["dist", "build", "node_modules"],
   "compilerOptions": {
     "outDir": "dist",
-    "outFile": "dist/styles.d.ts",
+    "outFile": "dist/styles.d.ts"
   }
 }

@@ -4,6 +4,6 @@
   "exclude": ["dist", "build", "node_modules"],
   "compilerOptions": {
     "outDir": "dist",
-    "outFile": "dist/local-storage.d.ts",
+    "outFile": "dist/local-storage.d.ts"
   }
 }
