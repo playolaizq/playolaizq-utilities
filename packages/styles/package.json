@@ -1,5 +1,5 @@
 {
-  "name": "@playolaizq/styles",
+  "name": "playolaizq-styles",
   "version": "0.0.2",
   "main": "./dist/styles.umd.js",
   "module": "./dist/styles.mjs",

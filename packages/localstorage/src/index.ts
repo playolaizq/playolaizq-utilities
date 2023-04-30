@@ -20,6 +20,7 @@ export function getLocalStorageItem(key: string): unknown {
  * @example
  * setLocalStorageItem("list", [{ id: 1, label: "List item 1" }]);
  */
+
 export function setLocalStorageItem(key: string, value: unknown) {
   localStorage.setItem(key, JSON.stringify(value));
 }

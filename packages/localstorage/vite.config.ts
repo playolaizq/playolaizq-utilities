@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from "vite";
 
 /**
  * @see https://vitejs.dev/config/
@@ -6,9 +6,9 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   build: {
     lib: {
-      entry: './src/index.ts',
-      name: "local-storage"
+      entry: "./src/index.ts",
+      name: "localstorage"
     },
     emptyOutDir: false
   }
-})
+});

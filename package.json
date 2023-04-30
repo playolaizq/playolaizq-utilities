@@ -10,7 +10,7 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "prepare-release": "changeset",
+    "prepare-release": "npm run format && changeset",
     "publish-packages": "changeset version && changeset publish"
   },
   "devDependencies": {

@@ -1,9 +1,9 @@
 {
-  "name": "@playolaizq/local-storage",
+  "name": "playolaizq-localstorage",
   "version": "0.0.2",
-  "main": "./dist/local-storage.umd.js",
-  "module": "./dist/local-storage.mjs",
-  "types": "./dist/local-storage.d.ts",
+  "main": "./dist/localstorage.umd.js",
+  "module": "./dist/localstorage.mjs",
+  "types": "./dist/localstorage.d.ts",
   "license": "MIT",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
