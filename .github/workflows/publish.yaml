@@ -29,6 +29,8 @@ jobs:
           npm run build
 
       - name: 🚀 Publish
-        run: npm run publish-packages
+        run: |
+          npm run publish-packages
+          npm run publish-tags
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}

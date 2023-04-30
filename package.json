@@ -12,7 +12,8 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare-release": "npm run format && changeset",
-    "publish-packages": "changeset version && changeset publish"
+    "publish-packages": "changeset version && changeset publish",
+    "publish-tags": "git push --follow-tags"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
