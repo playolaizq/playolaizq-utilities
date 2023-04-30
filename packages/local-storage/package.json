@@ -1,0 +1,24 @@
+{
+  "name": "@playolaizq/local-storage",
+  "version": "0.0.2",
+  "main": "./dist/local-storage.umd.js",
+  "module": "./dist/local-storage.mjs",
+  "types": "./dist/local-storage.d.ts",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "lint": "eslint \"src/**/*.ts*\"",
+    "build-tsc": "tsc",
+    "build-vite": "vite build",
+    "build": "npm run build-tsc && npm run build-vite"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "*",
+    "tsconfig": "*",
+    "typescript": "^4.5.2",
+    "vite": "^4.3.3"
+  }
+}

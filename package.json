@@ -1,21 +1,23 @@
 {
-  "private": true,
+  "name": "playolaizq-utilities",
+  "packageManager": "npm@9.5.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare-release": "changeset",
+    "publish-packages": "changeset version && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.1",
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
     "prettier": "^2.5.1",
     "turbo": "latest"
-  },
-  "name": "turborepo-poc",
-  "packageManager": "npm@9.5.0",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+  }
 }
