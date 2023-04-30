@@ -2,9 +2,9 @@
   "name": "playolaizq-styles",
   "description": "Styles utilities",
   "version": "0.0.2",
-  "main": "./dist/styles.umd.js",
-  "module": "./dist/styles.mjs",
-  "types": "./dist/styles.d.ts",
+  "main": "./dist/playolaizq-styles.umd.js",
+  "module": "./dist/playolaizq-styles.mjs",
+  "types": "./dist/playolaizq-styles.d.ts",
   "license": "MIT",
   "contributors": [
     "playolaizq <playolaizq@gmail.com> (https://github.com/playolaizq)"

@@ -2,9 +2,9 @@
   "name": "playolaizq-localstorage",
   "description": "Local Storage utilities",
   "version": "0.0.2",
-  "main": "./dist/localstorage.umd.js",
-  "module": "./dist/localstorage.mjs",
-  "types": "./dist/localstorage.d.ts",
+  "main": "./dist/playolaizq-localstorage.umd.js",
+  "module": "./dist/playolaizq-localstorage.mjs",
+  "types": "./dist/playolaizq-localstorage.d.ts",
   "license": "MIT",
   "contributors": [
     "playolaizq <playolaizq@gmail.com> (https://github.com/playolaizq)"

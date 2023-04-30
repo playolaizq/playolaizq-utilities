@@ -4,6 +4,6 @@
   "exclude": ["dist", "build", "node_modules"],
   "compilerOptions": {
     "outDir": "dist",
-    "outFile": "dist/localstorage.d.ts"
+    "outFile": "dist/playolaizq-styles.d.ts"
   }
 }
