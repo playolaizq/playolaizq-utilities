@@ -1,7 +1,7 @@
 {
   "name": "playolaizq-styles",
   "description": "Styles utilities",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "main": "./dist/playolaizq-styles.umd.js",
   "module": "./dist/playolaizq-styles.mjs",
   "types": "./dist/playolaizq-styles.d.ts",
