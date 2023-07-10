@@ -1,6 +1,6 @@
 /**
  * It retrieves an item by key from the browser's local storage.
- * @param {String} key
+ * @param {string} key
  * @returns unknown
  *
  * @example
@@ -14,7 +14,7 @@ export function getLocalStorageItem(key: string): unknown {
 
 /**
  * It sets an item to the browser's local storage.
- * @param {String} key
+ * @param {string} key
  * @param {unknown} value
  *
  * @example

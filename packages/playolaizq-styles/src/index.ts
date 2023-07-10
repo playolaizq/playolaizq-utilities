@@ -1,7 +1,7 @@
 /**
  * It merges a group of class names.
  * @param  {...Array} classes
- * @returns String
+ * @returns string
  *
  * @example
  * classNames("foo", "boo", false && "koo"); // returns "foo boo"

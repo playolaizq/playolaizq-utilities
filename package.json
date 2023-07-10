@@ -16,10 +16,10 @@
     "publish-tags": "git push --follow-tags"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.26.1",
-    "eslint": "^7.32.0",
+    "@changesets/cli": "^2.26.2",
+    "eslint": "^8.44.0",
     "eslint-config-custom": "*",
-    "prettier": "^2.5.1",
+    "prettier": "^3.0.0",
     "turbo": "latest"
   }
 }
