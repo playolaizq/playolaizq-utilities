@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import { defineConfig } from "vite";
 
 /**
@@ -10,5 +11,8 @@ export default defineConfig({
       name: "localstorage"
     },
     emptyOutDir: false
+  },
+  test: {
+    environment: "jsdom"
   }
 });

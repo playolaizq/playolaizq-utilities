@@ -11,7 +11,10 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "prepare-release": "npm run format && changeset",
+    "test-styles": "cd packages/playolaizq-styles && npm test",
+    "test-localstorage": "cd packages/playolaizq-localstorage && npm test",
+    "test": "npm run test-styles & npm run test-localstorage",
+    "prepare-release": "npm run format && npm test && changeset",
     "publish-packages": "changeset version && changeset publish",
     "publish-tags": "git push --follow-tags"
   },
